@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "baxter_hydra_dual_arm", "baxter_hydra_dual_arm\baxter_hydra_dual_arm.vcxproj", "{AE0E859D-DEF4-4882-A728-B81F1B1A8847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE0E859D-DEF4-4882-A728-B81F1B1A8847}.Debug|Win32.ActiveCfg = Debug|Win32
+		{AE0E859D-DEF4-4882-A728-B81F1B1A8847}.Debug|Win32.Build.0 = Debug|Win32
+		{AE0E859D-DEF4-4882-A728-B81F1B1A8847}.Release|Win32.ActiveCfg = Release|Win32
+		{AE0E859D-DEF4-4882-A728-B81F1B1A8847}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

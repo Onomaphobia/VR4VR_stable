@@ -1,0 +1,49 @@
+﻿Build started 2015/5/14 4:39:57.
+     1>Project "C:\Users\xixi8_000\SkyDrive\VS2010_projects\Unity_hydra_tcp\Unity_hydra_tcp\Unity_hydra_tcp.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Unity_hydra_tcp.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\xixi8_000\SkyDrive\VS2010_projects\Unity_hydra_tcp\Release\Unity_hydra_tcp.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\Users\xixi8_000\SkyDrive\VS2010_projects\Unity_hydra_tcp\Unity_hydra_tcp\lib\win32\release_static sixense_s.lib sixense_utils_s.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Unity_hydra_tcp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\xixi8_000\SkyDrive\VS2010_projects\Unity_hydra_tcp\Release\Unity_hydra_tcp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\xixi8_000\SkyDrive\VS2010_projects\Unity_hydra_tcp\Release\Unity_hydra_tcp.lib" /MACHINE:X86 Release\Unity_hydra_tcp.obj
+     1>sixense_s.lib(sixense.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(DriverMain.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(Time.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(SetRangeLEDFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(SleepTimerFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(ComputeStatsFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(ControllerEnabledStatusFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(NormalizeJoystickFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(ComputeMatrixFromQuatFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(MovingAverageFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(ApplyCoilOffsetFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(DeSawtoothFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(TrackHemiFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(CheckForDockedControllersFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(ConvertCoordSysFromPolhemusFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(SigMatFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(PacketStreamManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(USBManager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(ControllerDataStream.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(debendFilter.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(LogFileParser.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(CompositePacket.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(USBManagerWin32.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(SignalMatrixPacketPayload30.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(SignalMatrixPacketPayload20.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(SignalMatrixPacketPayloadRazer10.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(thread.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_s.lib(tss_pe.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_utils_s.lib(controller_manager.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_utils_s.lib(p1c1_steps.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_utils_s.lib(p1c2_steps.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_utils_s.lib(steps_common.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>sixense_utils_s.lib(time.obj) : error LNK2038: mismatch detected for '_ITERATOR_DEBUG_LEVEL': value '0' doesn't match value '2' in Unity_hydra_tcp.obj
+     1>LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>Unity_hydra_tcp.obj : error LNK2001: unresolved external symbol __imp___CrtDbgReportW
+     1>C:\Users\xixi8_000\SkyDrive\VS2010_projects\Unity_hydra_tcp\Release\Unity_hydra_tcp.exe : fatal error LNK1120: 1 unresolved externals
+     1>Done Building Project "C:\Users\xixi8_000\SkyDrive\VS2010_projects\Unity_hydra_tcp\Unity_hydra_tcp\Unity_hydra_tcp.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.37

@@ -1,0 +1,20 @@
+﻿Build started 5/25/2016 9:11:23 AM.
+     1>Project "H:\Ken's Goodies\1 - Control the Arm Cpp BAXBOT [client - on pc]\baxter_hydra_dual_arm\baxter_hydra_dual_arm\baxter_hydra_dual_arm.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\baxter_hydra_dual_arm.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\baxter_hydra_dual_arm.unsuccessfulbuild".
+         Touching "Debug\baxter_hydra_dual_arm.lastbuildstate".
+     1>Done Building Project "H:\Ken's Goodies\1 - Control the Arm Cpp BAXBOT [client - on pc]\baxter_hydra_dual_arm\baxter_hydra_dual_arm\baxter_hydra_dual_arm.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.66
