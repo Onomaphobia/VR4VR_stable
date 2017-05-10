@@ -30,7 +30,7 @@
 # POSSIBILITY OF SUCH DAMAGE.
 
 """
-Baxter RSDK Joint Position Example: keyboard
+Baxter hydra control:modified from position control example
 """
 import argparse
 import struct
